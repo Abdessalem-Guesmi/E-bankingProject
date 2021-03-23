@@ -1,0 +1,20 @@
+2021-03-22 00:04:58,179 [main] INFO e-banking - username provided
+2021-03-22 00:04:58,311 [main] INFO e-banking - password provided
+2021-03-22 00:05:00,241 [main] INFO e-banking - username of customer provided
+2021-03-22 00:05:00,352 [main] INFO e-banking - gender of customer provided
+2021-03-22 00:05:00,497 [main] INFO e-banking - birthday of customer provided
+2021-03-22 00:05:00,638 [main] INFO e-banking - address of customer provided
+2021-03-22 00:05:00,764 [main] INFO e-banking - city of customer provided
+2021-03-22 00:05:00,908 [main] INFO e-banking - state of customer provided
+2021-03-22 00:05:01,037 [main] INFO e-banking - pin of customer provided
+2021-03-22 00:05:01,167 [main] INFO e-banking - phone-number of customer provided
+2021-03-22 00:05:01,348 [main] INFO e-banking - email of customer provided tSdpq123@gmail.com
+2021-03-22 00:05:01,481 [main] INFO e-banking - password of customer provided
+2021-03-22 00:05:02,627 [main] WARN e-banking - pass
+2021-03-22 00:05:30,524 [main] INFO e-banking - username provided
+2021-03-22 00:05:30,651 [main] INFO e-banking - password provided
+2021-03-22 00:05:32,756 [main] INFO e-banking - Account_N° provided
+2021-03-22 00:05:32,886 [main] INFO e-banking - Ammount provided
+2021-03-22 00:05:33,130 [main] INFO e-banking - description provided
+2021-03-23 21:19:18,237 [main] INFO e-banking - username provided
+2021-03-23 21:19:44,248 [main] INFO e-banking - username provided

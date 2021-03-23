@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113154" started-at="2021-03-21T23:04:13Z" finished-at="2021-03-21T23:06:06Z">
+    <groups>
+    </groups>
+    <test name="e-Banking_Test" duration-ms="113154" started-at="2021-03-21T23:04:13Z" finished-at="2021-03-21T23:06:06Z">
+      <class name="com.inetBanking.testcases.TC_CustomisedStatementTest_007">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_CustomisedStatementTest_007@794cb805]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-21T23:05:49Z" finished-at="2021-03-21T23:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_CustomisedStatementTest_007@794cb805]" name="goLogin" is-config="true" duration-ms="11861" started-at="2021-03-21T23:05:49Z" finished-at="2021-03-21T23:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="deposit()[pri:0, instance:com.inetBanking.testcases.TC_CustomisedStatementTest_007@794cb805]" name="deposit" duration-ms="4693" started-at="2021-03-21T23:06:01Z" finished-at="2021-03-21T23:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_CustomisedStatementTest_007@794cb805]" name="recordFailure" is-config="true" duration-ms="298" started-at="2021-03-21T23:06:05Z" finished-at="2021-03-21T23:06:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deposit status=SUCCESS method=TC_CustomisedStatementTest_007.deposit()[pri:0, instance:com.inetBanking.testcases.TC_CustomisedStatementTest_007@794cb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_CustomisedStatementTest_007@794cb805]" name="tearDown" is-config="true" duration-ms="579" started-at="2021-03-21T23:06:06Z" finished-at="2021-03-21T23:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_CustomisedStatementTest_007 -->
+      <class name="com.inetBanking.testcases.TC_HomeTest_002">
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_HomeTest_002@6e0dec4a]" name="goLogin" is-config="true" duration-ms="14027" started-at="2021-03-21T23:04:29Z" finished-at="2021-03-21T23:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_HomeTest_002@6e0dec4a]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-21T23:04:29Z" finished-at="2021-03-21T23:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.inetBanking.testcases.TC_HomeTest_002@6e0dec4a]" name="goHome" duration-ms="2500" started-at="2021-03-21T23:04:43Z" finished-at="2021-03-21T23:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_HomeTest_002@6e0dec4a]" name="recordFailure" is-config="true" duration-ms="240" started-at="2021-03-21T23:04:45Z" finished-at="2021-03-21T23:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goHome status=SUCCESS method=TC_HomeTest_002.goHome()[pri:0, instance:com.inetBanking.testcases.TC_HomeTest_002@6e0dec4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_HomeTest_002@6e0dec4a]" name="tearDown" is-config="true" duration-ms="592" started-at="2021-03-21T23:04:45Z" finished-at="2021-03-21T23:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_HomeTest_002 -->
+      <class name="com.inetBanking.testcases.TC_FundTransferTest_006">
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_FundTransferTest_006@1f3f4916]" name="goLogin" is-config="true" duration-ms="8181" started-at="2021-03-21T23:05:34Z" finished-at="2021-03-21T23:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_FundTransferTest_006@1f3f4916]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-21T23:05:34Z" finished-at="2021-03-21T23:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deposit()[pri:0, instance:com.inetBanking.testcases.TC_FundTransferTest_006@1f3f4916]" name="deposit" duration-ms="4272" started-at="2021-03-21T23:05:42Z" finished-at="2021-03-21T23:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_FundTransferTest_006@1f3f4916]" name="recordFailure" is-config="true" duration-ms="2082" started-at="2021-03-21T23:05:46Z" finished-at="2021-03-21T23:05:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deposit status=SUCCESS method=TC_FundTransferTest_006.deposit()[pri:0, instance:com.inetBanking.testcases.TC_FundTransferTest_006@1f3f4916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_FundTransferTest_006@1f3f4916]" name="tearDown" is-config="true" duration-ms="551" started-at="2021-03-21T23:05:48Z" finished-at="2021-03-21T23:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_FundTransferTest_006 -->
+      <class name="com.inetBanking.testcases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_AddCustomerTest_003@96def03]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-21T23:04:46Z" finished-at="2021-03-21T23:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_AddCustomerTest_003@96def03]" name="goLogin" is-config="true" duration-ms="11654" started-at="2021-03-21T23:04:46Z" finished-at="2021-03-21T23:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.inetBanking.testcases.TC_AddCustomerTest_003@96def03]" name="addNewCustomer" duration-ms="4595" started-at="2021-03-21T23:04:58Z" finished-at="2021-03-21T23:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_AddCustomerTest_003@96def03]" name="recordFailure" is-config="true" duration-ms="139" started-at="2021-03-21T23:05:02Z" finished-at="2021-03-21T23:05:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=TC_AddCustomerTest_003.addNewCustomer()[pri:0, instance:com.inetBanking.testcases.TC_AddCustomerTest_003@96def03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_AddCustomerTest_003@96def03]" name="tearDown" is-config="true" duration-ms="579" started-at="2021-03-21T23:05:02Z" finished-at="2021-03-21T23:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_AddCustomerTest_003 -->
+      <class name="com.inetBanking.testcases.TC_WithdrawalTest_005">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_WithdrawalTest_005@1ed1993a]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-21T23:05:18Z" finished-at="2021-03-21T23:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_WithdrawalTest_005@1ed1993a]" name="goLogin" is-config="true" duration-ms="11453" started-at="2021-03-21T23:05:18Z" finished-at="2021-03-21T23:05:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="withdrawal()[pri:0, instance:com.inetBanking.testcases.TC_WithdrawalTest_005@1ed1993a]" name="withdrawal" duration-ms="3176" started-at="2021-03-21T23:05:30Z" finished-at="2021-03-21T23:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawal -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_WithdrawalTest_005@1ed1993a]" name="recordFailure" is-config="true" duration-ms="187" started-at="2021-03-21T23:05:33Z" finished-at="2021-03-21T23:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withdrawal status=SUCCESS method=TC_WithdrawalTest_005.withdrawal()[pri:0, instance:com.inetBanking.testcases.TC_WithdrawalTest_005@1ed1993a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_WithdrawalTest_005@1ed1993a]" name="tearDown" is-config="true" duration-ms="602" started-at="2021-03-21T23:05:33Z" finished-at="2021-03-21T23:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_WithdrawalTest_005 -->
+      <class name="com.inetBanking.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_LoginTest_001@56528192]" name="setUp" is-config="true" duration-ms="12" started-at="2021-03-21T23:04:13Z" finished-at="2021-03-21T23:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_LoginTest_001@56528192]" name="goLogin" is-config="true" duration-ms="12987" started-at="2021-03-21T23:04:13Z" finished-at="2021-03-21T23:04:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.inetBanking.testcases.TC_LoginTest_001@56528192]" name="login" duration-ms="1579" started-at="2021-03-21T23:04:26Z" finished-at="2021-03-21T23:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_LoginTest_001@56528192]" name="recordFailure" is-config="true" duration-ms="235" started-at="2021-03-21T23:04:28Z" finished-at="2021-03-21T23:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TC_LoginTest_001.login()[pri:0, instance:com.inetBanking.testcases.TC_LoginTest_001@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_LoginTest_001@56528192]" name="tearDown" is-config="true" duration-ms="526" started-at="2021-03-21T23:04:28Z" finished-at="2021-03-21T23:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_LoginTest_001 -->
+      <class name="com.inetBanking.testcases.TC_DepositTest_004">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testcases.TC_DepositTest_004@5ccddd20]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-21T23:05:03Z" finished-at="2021-03-21T23:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goLogin(java.lang.String)[pri:0, instance:com.inetBanking.testcases.TC_DepositTest_004@5ccddd20]" name="goLogin" is-config="true" duration-ms="10730" started-at="2021-03-21T23:05:03Z" finished-at="2021-03-21T23:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+        <test-method status="PASS" signature="deposit()[pri:0, instance:com.inetBanking.testcases.TC_DepositTest_004@5ccddd20]" name="deposit" duration-ms="3979" started-at="2021-03-21T23:05:14Z" finished-at="2021-03-21T23:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testcases.TC_DepositTest_004@5ccddd20]" name="recordFailure" is-config="true" duration-ms="218" started-at="2021-03-21T23:05:18Z" finished-at="2021-03-21T23:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deposit status=SUCCESS method=TC_DepositTest_004.deposit()[pri:0, instance:com.inetBanking.testcases.TC_DepositTest_004@5ccddd20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testcases.TC_DepositTest_004@5ccddd20]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-03-21T23:05:18Z" finished-at="2021-03-21T23:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testcases.TC_DepositTest_004 -->
+    </test> <!-- e-Banking_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
